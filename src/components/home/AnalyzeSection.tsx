@@ -19,17 +19,17 @@ const AnalyzeSection = () => {
               <BarChart3 className="h-6 w-6 text-primary" />
             </div>
             <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-              Data-Driven Decisions for Your Practice
+              Finally See Where Your Money Really Comes From
             </h2>
             <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
-              Track chair utilization, patient lifetime value, most profitable treatments, revenue allocation, and staff commissions — all from real-time dashboards with exportable reports.
+              See which treatments make you the most money, which patients keep coming back, and where every naira goes — updated in real time, ready to export whenever you need it.
             </p>
             <ul className="space-y-3">
               {[
-                "Profitability analysis: revenue vs. costs per treatment",
-                "Commission payouts calculated automatically",
-                "Advanced analytics with trend detection",
-                "Exportable PDF & CSV reports",
+                "Know exactly which treatments actually make you money",
+                "Staff commissions calculated for you, every time",
+                "Spot trends before they hurt your bottom line",
+                "Reports ready to print or send, in one click",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3 text-foreground">
                   <CheckCircle2 className="h-5 w-5 shrink-0 text-primary" />

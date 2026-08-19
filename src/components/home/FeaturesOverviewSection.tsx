@@ -67,7 +67,7 @@ const FeaturesOverviewSection = () => {
             Real Problems. Real Results.
           </h2>
           <p className="text-white/60">
-            Every part of Clinexus is built around one question: what does a clinic owner actually need to stop worrying and start thriving?
+            Every part of Clinexus answers one question: what do you, the clinic owner, actually need to stop worrying and start earning more?
           </p>
         </motion.div>
 
@@ -101,7 +101,7 @@ const FeaturesOverviewSection = () => {
         >
           <Link to="/features">
             <Button variant="ghost" className="gap-2 text-white/80 hover:bg-white/10 hover:text-white">
-              See Everything Clinexus Can Do <ArrowRight className="h-4 w-4" />
+              See Everything You Get <ArrowRight className="h-4 w-4" />
             </Button>
           </Link>
         </motion.div>

@@ -37,10 +37,10 @@ const DashboardShowcaseSection = () => {
             Real Dashboard
           </span>
           <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
-            Built for Clinics That Mean Business
+            This Is What Running a Tight Clinic Looks Like
           </h2>
           <p className="mx-auto max-w-xl text-muted-foreground">
-            Not a mockup — these are real screens from a live ClineXus clinic. Swipe through to see what you'll get.
+            No mockups here — these are real screens from a real clinic running on Clinexus today. Swipe through and see for yourself.
           </p>
         </motion.div>
 
@@ -78,7 +78,7 @@ const DashboardShowcaseSection = () => {
         >
           <Link to="/demo">
             <Button size="lg" className="gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] text-white shadow-lg shadow-primary/30 hover:opacity-90">
-              See Full Product Tour <ArrowRight className="h-4 w-4" />
+              Take the Full Tour <ArrowRight className="h-4 w-4" />
             </Button>
           </Link>
         </motion.div>
