@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
 import dashboardScreenshot from "@/assets/dashboard-screenshot.png";
 
 const outcomes = ["More Revenue", "Fewer No-Shows", "Zero Paperwork", "Faster Payments", "Full Visibility"];
