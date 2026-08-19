@@ -29,7 +29,6 @@ const Footer = () => {
             <h4 className="text-sm font-semibold uppercase tracking-wider text-background/50">Product</h4>
             <div className="flex flex-col gap-2">
               <Link to="/features" className="text-sm text-background/70 transition-colors hover:text-background">Features</Link>
-              <Link to="/pricing" className="text-sm text-background/70 transition-colors hover:text-background">Pricing</Link>
               <Link to="/industries" className="text-sm text-background/70 transition-colors hover:text-background">Industries</Link>
             </div>
           </div>
@@ -40,7 +39,7 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               <Link to="/about" className="text-sm text-background/70 transition-colors hover:text-background">About</Link>
               <Link to="/contact" className="text-sm text-background/70 transition-colors hover:text-background">Contact</Link>
-              <a href="https://wa.me/2349117970629" target="_blank" rel="noopener noreferrer" className="text-sm text-background/70 transition-colors hover:text-background">+234 911 797 0629</a>
+              <a href="https://wa.me/2349017758165" target="_blank" rel="noopener noreferrer" className="text-sm text-background/70 transition-colors hover:text-background">0901 7758 165</a>
               <a href="mailto:support@clinexus.com.ng" className="text-sm text-background/70 transition-colors hover:text-background">support@clinexus.com.ng</a>
               <span className="text-sm text-background/70">Ikeja, Lagos, Nigeria</span>
             </div>

@@ -11,13 +11,12 @@ const navLinks = [
   { label: "Features", to: "/features" },
   { label: "Demo", to: "/demo" },
   { label: "Industries", to: "/industries" },
-  { label: "Pricing", to: "/pricing" },
   { label: "About", to: "/about" },
   { label: "Contact", to: "/contact" },
 ];
 
 const isDark = (pathname: string) =>
-  ["/", "/features", "/pricing", "/about", "/contact", "/industries", "/demo"].includes(pathname);
+  ["/", "/features", "/about", "/contact", "/industries", "/demo"].includes(pathname);
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);

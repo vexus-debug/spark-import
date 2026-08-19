@@ -45,16 +45,16 @@ const Demo = () => {
             className="mx-auto max-w-3xl text-center"
           >
             <span className="mb-4 inline-block text-sm font-semibold uppercase tracking-widest text-[hsl(var(--medical-teal))]">
-              Product Tour
+              Dental Clinic Demo
             </span>
             <h1 className="mb-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-white md:text-5xl">
-              See ClineXus{" "}
+              See the Dental Clinic Demo{" "}
               <span className="bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] bg-clip-text text-transparent">
                 in Action
               </span>
             </h1>
             <p className="mx-auto max-w-xl text-lg leading-relaxed text-white/60">
-              Real screenshots from a live clinic dashboard. This is what running your practice looks like with ClineXus.
+              Every screen below is from the live Clinexus dental clinic demo — this is what running your dental practice looks like.
             </p>
           </motion.div>
         </div>
@@ -149,7 +149,7 @@ const Demo = () => {
             viewport={{ once: true }}
             className="mb-10 text-center"
           >
-            <h2 className="mb-3 text-2xl font-bold text-foreground md:text-3xl">All Screens</h2>
+            <h2 className="mb-3 text-2xl font-bold text-foreground md:text-3xl">All Dental Clinic Demo Screens</h2>
             <p className="text-muted-foreground">Click any screen above to explore in detail</p>
           </motion.div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">

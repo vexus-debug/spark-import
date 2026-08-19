@@ -103,7 +103,7 @@ const Contact = () => {
                 <div className="space-y-4">
                   {[
                     { icon: Mail, label: "support@clinexus.com.ng", href: "mailto:support@clinexus.com.ng" },
-                    { icon: Phone, label: "+234 911 797 0629", href: "https://wa.me/2349117970629" },
+                    { icon: Phone, label: "0901 7758 165", href: "https://wa.me/2349017758165" },
                     { icon: MapPin, label: "Ikeja, Lagos, Nigeria" },
                     { icon: Clock, label: "Mon – Fri, 8am – 6pm WAT" },
                   ].map((item) => (
