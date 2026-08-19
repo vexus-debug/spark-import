@@ -92,7 +92,7 @@ const Navbar = () => {
               size="sm"
               className="gap-1.5 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] px-5 text-white shadow-md hover:opacity-90"
             >
-              Get Started <ArrowRight className="h-3.5 w-3.5" />
+              Start Free <ArrowRight className="h-3.5 w-3.5" />
             </Button>
           </a>
         </div>
@@ -142,7 +142,7 @@ const Navbar = () => {
                   </a>
                   <a href="https://app.clinexus.com.ng/" onClick={() => setOpen(false)}>
                     <Button className="w-full gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] text-white hover:opacity-90">
-                      Get Started Free <ArrowRight className="h-4 w-4" />
+                      Start Free <ArrowRight className="h-4 w-4" />
                     </Button>
                   </a>
                 </div>

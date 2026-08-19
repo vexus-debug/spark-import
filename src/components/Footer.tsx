@@ -12,7 +12,7 @@ const Footer = () => {
               <img src={clinexusLogoWhite} alt="Clinexus" className="h-9" />
             </div>
             <p className="text-sm text-background/70">
-              The modern clinic management platform built for growing healthcare practices.
+              Run a calmer, more profitable clinic — less admin, fewer no-shows, more time for patients.
             </p>
             <div className="flex items-center gap-3 pt-2">
               <a href="https://instagram.com/clinexus_ng" target="_blank" rel="noopener noreferrer" className="text-background/50 transition-colors hover:text-background" aria-label="Instagram">

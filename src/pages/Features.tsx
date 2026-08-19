@@ -16,96 +16,96 @@ const categories = [
   {
     name: "Overview",
     modules: [
-      { icon: LayoutDashboard, title: "Dashboard Home", description: "KPIs at a glance — today's appointments, revenue snapshot, recent activity summary, and actionable alerts.", benefits: ["Real-time KPI cards", "Today's appointment overview", "Recent activity feed", "Quick-action shortcuts"] },
+      { icon: LayoutDashboard, title: "Dashboard Home", description: "Walk in every morning and know exactly where your clinic stands — who's coming in, how much you've made, and what needs your attention right now.", benefits: ["See today's appointments at a glance", "Track revenue as it comes in", "Catch what needs action fast", "Jump straight to what matters"] },
     ],
   },
   {
     name: "Patient Care",
     modules: [
-      { icon: Users, title: "Patient Management", description: "Register, edit, and search patient records — demographics, medical history, allergies, emergency contacts, and family linking. Find any patient in seconds.", benefits: ["Complete medical & visit history", "Smart search with instant results", "Automated duplicate detection", "Family & group linking"] },
-      { icon: FileText, title: "Patient Profiles", description: "Detailed per-patient view with full treatment history, clinical charts, invoices, prescriptions, uploaded files, and appointment logs.", benefits: ["360° patient overview", "Treatment timeline", "Linked invoices & payments", "Document & image gallery"] },
-      { icon: CalendarCheck, title: "Appointments", description: "Schedule, reschedule, and cancel appointments with drag-and-drop ease. Support walk-ins, assign rooms or chairs, and send automated reminders to cut no-shows.", benefits: ["Drag-and-drop scheduling", "Walk-in & waitlist support", "SMS & email reminders", "Room/chair assignment per provider"] },
-      { icon: ClipboardList, title: "Waiting List", description: "Manage walk-in patients and queues digitally. Track wait times, prioritize urgent cases, and keep patients informed.", benefits: ["Real-time queue management", "Priority flagging", "Estimated wait times", "Walk-in to appointment conversion"] },
-      { icon: Clock, title: "Schedules", description: "Define each provider's weekly availability — working days, start/end times, break periods. Feeds directly into appointment booking.", benefits: ["Per-provider availability", "Break & off-day management", "Automatic booking slot generation", "Multi-provider views"] },
-      { icon: Star, title: "Patient Reviews", description: "Collect and track patient ratings and feedback. Understand satisfaction trends and identify areas for improvement.", benefits: ["Star rating collection", "Written feedback tracking", "Satisfaction trend analytics", "Per-provider feedback"] },
+      { icon: Users, title: "Patient Management", description: "Pull up any patient's full history in seconds — no more digging through paper files or asking patients to repeat their story.", benefits: ["Full history in one place", "Find any patient instantly", "No more duplicate records", "Link family members together"] },
+      { icon: FileText, title: "Patient Profiles", description: "Everything about a patient — treatments, bills, prescriptions, files — on one screen, so you never miss a detail during a visit.", benefits: ["One page, full patient story", "See the whole treatment journey", "Bills and payments in view", "Photos and documents on hand"] },
+      { icon: CalendarCheck, title: "Appointments", description: "Fill your chairs and stop losing money to no-shows. Book, move, and manage appointments in a few taps, and let reminders bring patients back.", benefits: ["Book and reschedule in seconds", "Handle walk-ins without chaos", "Automatic reminders cut no-shows", "Assign the right room or chair"] },
+      { icon: ClipboardList, title: "Waiting List", description: "Keep your waiting room calm and organized. Know who's next, how long they've waited, and who needs to be seen first.", benefits: ["Always know who's next", "Flag urgent cases instantly", "Give patients a real wait time", "Turn walk-ins into bookings"] },
+      { icon: Clock, title: "Schedules", description: "Set each staff member's working hours once, and let the system stop double-bookings and awkward gaps automatically.", benefits: ["Set hours for every provider", "Block off breaks and days out", "No more double-booking", "See everyone's schedule at once"] },
+      { icon: Star, title: "Patient Reviews", description: "Find out what patients really think before it costs you business, and use it to keep improving.", benefits: ["Collect ratings easily", "Read honest feedback", "Spot problems early", "See how each provider is doing"] },
     ],
   },
   {
     name: "Clinical",
     modules: [
-      { icon: Stethoscope, title: "Clinical Charts", description: "Condition and procedure charting with specialty-level detail. For dental clinics, this includes a full tooth-by-tooth diagram — fully integrated with treatments and billing.", benefits: ["Interactive charting interface", "Surface-level condition recording", "Procedure history per area", "Auto-links to treatment records"] },
-      { icon: ScrollText, title: "Treatments", description: "Maintain a treatment catalog with pricing. Record patient treatments linked to clinical charts, invoices, and materials used.", benefits: ["Treatment catalog management", "Per-patient treatment records", "Linked to charts & billing", "Material cost tracking"] },
-      { icon: Pill, title: "Prescriptions", description: "Generate professional prescriptions with medication name, dosage, frequency, and duration. Full prescription history per patient.", benefits: ["Digital prescription creation", "Dosage & frequency fields", "Prescription history", "Print-ready formatting"] },
-      { icon: FileUp, title: "Consent Forms", description: "Create reusable consent form templates. Track signed consents per patient with timestamps for compliance.", benefits: ["Template builder", "Per-patient consent tracking", "Date & signature logging", "Compliance-ready records"] },
+      { icon: Stethoscope, title: "Clinical Charts", description: "Chart conditions and procedures the way your specialty actually works — dental clinics get a full tooth-by-tooth chart tied straight to billing.", benefits: ["Chart the way you're used to", "Record findings by area", "See procedure history at a glance", "Charts connect straight to billing"] },
+      { icon: ScrollText, title: "Treatments", description: "Price your treatments once and bill consistently every time, with every material used automatically accounted for.", benefits: ["Set your prices once", "Log treatments per patient", "Charts, bills and treatments stay linked", "Know the cost of materials used"] },
+      { icon: Pill, title: "Prescriptions", description: "Write clean, professional prescriptions in moments and keep a full record for every patient, every time.", benefits: ["Write prescriptions fast", "Dosage and duration built in", "Full history per patient", "Ready to print instantly"] },
+      { icon: FileUp, title: "Consent Forms", description: "Protect your clinic with signed consent on file for every procedure — no more chasing paperwork or worrying about disputes.", benefits: ["Reusable form templates", "Signed consent per patient", "Dated and time-stamped", "Ready if you're ever questioned"] },
     ],
   },
   {
     name: "Lab Management",
     modules: [
-      { icon: FlaskConical, title: "Lab Work (External)", description: "Send lab orders to external labs with all case details. Track status from submission to delivery.", benefits: ["External lab order management", "Status tracking", "Case detail attachments", "Delivery tracking"] },
-      { icon: Activity, title: "Lab Dashboard", description: "Internal lab overview — see all active cases, pending work, completed jobs, and technician workloads at a glance.", benefits: ["Active case overview", "Workload visualization", "Completion tracking", "Performance metrics"] },
-      { icon: FlaskConical, title: "Lab Cases", description: "Full case management — work type, shade, material, urgency, fees, and assigned technician. The complete lifecycle of every lab job.", benefits: ["Work type & shade matching", "Material specification", "Urgency flagging", "Fee tracking per case"] },
-      { icon: UserCog, title: "Lab Technicians", description: "Manage staff assigned to lab roles. Track assignments, specializations, and output.", benefits: ["Technician profiles", "Case assignment tracking", "Specialization tagging", "Output & performance metrics"] },
-      { icon: Receipt, title: "Lab Billing", description: "Lab-specific invoicing separate from clinical billing. Track costs, margins, and payments for lab operations.", benefits: ["Lab-specific invoices", "Cost & margin tracking", "Payment status", "Integrated with main finance"] },
-      { icon: Settings, title: "Lab Settings", description: "Configure lab-specific options — work types, materials catalog, shade guides, and default pricing.", benefits: ["Work type configuration", "Materials catalog", "Default pricing rules", "Shade guide management"] },
+      { icon: FlaskConical, title: "Lab Work (External)", description: "Send cases out to external labs and know exactly where they stand, instead of chasing phone calls for updates.", benefits: ["Send orders with full case details", "Track every case's status", "Attach everything the lab needs", "Know when it's coming back"] },
+      { icon: Activity, title: "Lab Dashboard", description: "See your whole lab operation at a glance — what's active, what's pending, and who's carrying the workload.", benefits: ["See every active case at once", "Spot overloaded technicians", "Track what's finished", "Measure lab performance"] },
+      { icon: FlaskConical, title: "Lab Cases", description: "Manage every lab job from start to finish — shade, material, urgency, and fees — so nothing falls through the cracks.", benefits: ["Match shade and material precisely", "Flag urgent cases", "Know the fee for every case", "Follow each job to completion"] },
+      { icon: UserCog, title: "Lab Technicians", description: "Know who's doing what in your lab, and hold every technician accountable for their output.", benefits: ["A profile for every technician", "See who's assigned to what", "Track specializations", "Measure output over time"] },
+      { icon: Receipt, title: "Lab Billing", description: "Keep lab money separate from clinical income so you always know your true lab margins.", benefits: ["Lab invoices kept separate", "See real costs and margins", "Know what's been paid", "Rolls up into overall finances"] },
+      { icon: Settings, title: "Lab Settings", description: "Set your lab's work types, materials and standard prices once, then let the system apply them every time.", benefits: ["Define your work types", "Keep a materials catalog", "Set default pricing", "Manage shade guides"] },
     ],
   },
   {
     name: "Finance",
     modules: [
-      { icon: Receipt, title: "Billing & Invoices", description: "Create detailed invoices with line items, discounts, and tax. Track payment status, send reminders, and generate receipts.", benefits: ["Line-item invoicing", "Discount & tax support", "Payment status tracking", "Automated reminders"] },
-      { icon: DollarSign, title: "Treatment Estimates", description: "Generate cost estimates before treatment begins. Patients know what to expect, and you have a clear path to invoicing.", benefits: ["Pre-treatment cost breakdown", "Convert estimate to invoice", "Patient-facing format", "Treatment plan pricing"] },
-      { icon: CreditCard, title: "Payment Plans", description: "Offer installment-based payment plans linked to invoices. Track payments received, outstanding balances, and due dates.", benefits: ["Installment scheduling", "Linked to invoices", "Outstanding balance tracking", "Payment reminder automation"] },
-      { icon: TrendingUp, title: "Expenses", description: "Track clinic expenses by category, vendor, and date. Understand where money goes to control costs.", benefits: ["Category-based tracking", "Vendor management", "Date range filtering", "Expense reports"] },
-      { icon: DollarSign, title: "Commission Payouts", description: "Automatically calculate staff commissions based on treatments performed. Track payouts and outstanding amounts.", benefits: ["Rule-based commission calculation", "Per-staff payout tracking", "Outstanding commission reports", "Linked to treatments"] },
-      { icon: BarChart3, title: "Revenue Allocation", description: "Define rules to distribute revenue by treatment category. Know exactly where your money is coming from and going.", benefits: ["Rule-based allocation", "Category-level distribution", "Visual breakdowns", "Configurable rules"] },
-      { icon: TrendingUp, title: "Profitability", description: "Revenue vs. cost analysis per treatment, per provider, and per period. Make data-driven decisions about your practice.", benefits: ["Revenue vs. cost dashboards", "Per-treatment profitability", "Per-provider analysis", "Trend visualization"] },
+      { icon: Receipt, title: "Billing & Invoices", description: "Get paid faster and stop losing money to forgotten bills. Create clear invoices, chase outstanding balances, and issue receipts in one place.", benefits: ["Clean, itemized invoices", "Discounts and tax handled", "See who still owes you", "Automatic payment reminders"] },
+      { icon: DollarSign, title: "Treatment Estimates", description: "Give patients an honest price before treatment starts, so there's no awkward conversation about cost after the fact.", benefits: ["Clear cost breakdown upfront", "Turn an estimate into an invoice", "Easy for patients to understand", "Price out full treatment plans"] },
+      { icon: CreditCard, title: "Payment Plans", description: "Let patients pay in installments so cost is never the reason they walk away from treatment — while you keep track of every naira owed.", benefits: ["Set up installment plans", "Tied directly to invoices", "See what's still outstanding", "Automatic payment reminders"] },
+      { icon: TrendingUp, title: "Expenses", description: "See exactly where your money is going every month, so you can cut waste and protect your margins.", benefits: ["Track spending by category", "Know who you're paying and why", "Filter by any date range", "Clear expense reports"] },
+      { icon: DollarSign, title: "Commission Payouts", description: "Pay your staff accurately and on time, without spending hours doing the maths by hand every month.", benefits: ["Commissions calculated for you", "See what each staff member earns", "Track what's still owed", "Tied directly to treatments done"] },
+      { icon: BarChart3, title: "Revenue Allocation", description: "Know exactly which services are actually making you money, so you can double down on what works.", benefits: ["Split revenue by category", "See where money really comes from", "Clear visual breakdowns", "Set your own rules"] },
+      { icon: TrendingUp, title: "Profitability", description: "Stop guessing which treatments and providers are actually profitable — see it clearly and make decisions with confidence.", benefits: ["Revenue vs. cost, side by side", "Profit by treatment type", "Profit by provider", "Spot trends over time"] },
     ],
   },
   {
     name: "Reports & Analytics",
     modules: [
-      { icon: BarChart3, title: "Reports", description: "Standard reports for room utilization, patient lifetime value, most profitable treatments, revenue trends, and more.", benefits: ["Room utilization reports", "Patient LTV analysis", "Revenue trend charts", "Exportable PDF & CSV"] },
-      { icon: BarChart3, title: "Advanced Analytics", description: "Deeper data analysis with trend detection, comparative periods, and custom date ranges for strategic decision-making.", benefits: ["Trend detection", "Period-over-period comparison", "Custom date ranges", "Strategic insights"] },
+      { icon: BarChart3, title: "Reports", description: "Get the answers you need for smarter decisions — which rooms are busiest, which patients are most valuable, and which treatments actually pay.", benefits: ["Room usage at a glance", "Know your most valuable patients", "See revenue trends clearly", "Export to PDF or CSV anytime"] },
+      { icon: BarChart3, title: "Advanced Analytics", description: "Look beyond the day-to-day and spot the trends that shape your clinic's future, on your own timeline.", benefits: ["Spot patterns before they cost you", "Compare any two periods", "Pick your own date ranges", "Make decisions with real data"] },
     ],
   },
   {
     name: "Inventory & Supply Chain",
     modules: [
-      { icon: Package, title: "Inventory", description: "Track every supply, medication, and material in real time. Get alerts before stock runs out and manage expiry dates.", benefits: ["Real-time stock levels", "Min-stock alerts", "Expiry date tracking", "Barcode/SKU support"] },
-      { icon: DollarSign, title: "Inventory Costs", description: "Cost analysis per inventory item — purchase price, usage rates, and cost trends over time.", benefits: ["Per-item cost tracking", "Usage rate analysis", "Cost trend charts", "Budget impact reports"] },
-      { icon: ScrollText, title: "Treatment Materials", description: "Link materials and inventory items to specific treatments. Automatically track consumption and costs per procedure.", benefits: ["Material-to-treatment linking", "Auto consumption tracking", "Cost-per-procedure calculation", "Reorder triggers"] },
-      { icon: Truck, title: "Suppliers", description: "Maintain a supplier directory with contact details, payment terms, and order history.", benefits: ["Supplier directory", "Contact management", "Payment term tracking", "Order history"] },
-      { icon: ShoppingCart, title: "Purchase Orders", description: "Create and track purchase orders with line items. Monitor delivery status and reconcile with inventory.", benefits: ["PO creation with line items", "Delivery tracking", "Auto inventory reconciliation", "Supplier-linked ordering"] },
+      { icon: Package, title: "Inventory", description: "Never run out of what you need mid-procedure again. Know your stock levels in real time and get warned before things run low or expire.", benefits: ["Real-time stock counts", "Alerts before you run out", "Know what's about to expire", "Scan items in and out"] },
+      { icon: DollarSign, title: "Inventory Costs", description: "See what your supplies are really costing you over time, so buying decisions get easier.", benefits: ["Track cost per item", "See how fast things are used", "Watch cost trends over time", "Know the impact on your budget"] },
+      { icon: ScrollText, title: "Treatment Materials", description: "Know exactly how much each procedure really costs you in materials, automatically, every single time.", benefits: ["Materials tied to treatments", "Usage tracked automatically", "Real cost per procedure", "Reorder before you run dry"] },
+      { icon: Truck, title: "Suppliers", description: "Keep every supplier's contact, terms and order history in one place, so restocking is never a scramble.", benefits: ["All suppliers in one directory", "Contacts always on hand", "Know your payment terms", "Full order history"] },
+      { icon: ShoppingCart, title: "Purchase Orders", description: "Order supplies with confidence and know exactly what's arrived and what's still on the way.", benefits: ["Create orders in minutes", "Track deliveries", "Stock updates itself on arrival", "Order straight from your suppliers"] },
     ],
   },
   {
     name: "Administration",
     modules: [
-      { icon: UserCog, title: "Staff Management", description: "Add and edit staff, assign one of 9 role types. Manage schedules, permissions, and performance.", benefits: ["9 built-in role types", "Permission management", "Schedule assignment", "Performance tracking"] },
-      { icon: FileText, title: "Documents", description: "Store clinic-level documents — licenses, certificates, contracts, and compliance paperwork. Organized and always accessible.", benefits: ["Centralized document storage", "Category organization", "Quick search & access", "Compliance-ready"] },
-      { icon: ShieldCheck, title: "Audit Log", description: "Complete activity tracking — who did what, when, and where. Essential for compliance and accountability.", benefits: ["Action-level logging", "User attribution", "Timestamp tracking", "Filterable history"] },
-      { icon: Workflow, title: "Automation", description: "Set up workflow automation — appointment reminders, follow-up messages, and custom triggers. Reduce manual work.", benefits: ["Configurable triggers", "Reminder automation", "Follow-up sequences", "Multi-channel delivery"] },
-      { icon: Globe, title: "Website Settings", description: "Configure your clinic's public website — branding, services, team bios, and contact information.", benefits: ["Branded clinic page", "Service listing", "Team profiles", "Contact & location info"] },
-      { icon: ShoppingBag, title: "Shop Management", description: "Manage a product catalog for your public-facing shop. Add products, set pricing, and track orders.", benefits: ["Product catalog", "Pricing management", "Order tracking", "Public storefront integration"] },
-      { icon: Settings, title: "Clinic Settings", description: "Organization-level configuration — clinic name, logo, contact info, operating hours, and preferences.", benefits: ["Org-level branding", "Contact configuration", "Operating hours", "System preferences"] },
+      { icon: UserCog, title: "Staff Management", description: "Give every staff member the right access — no more, no less — and manage schedules and performance without the guesswork.", benefits: ["9 ready-made role types", "Control who sees what", "Manage everyone's schedule", "Track performance over time"] },
+      { icon: FileText, title: "Documents", description: "Keep licenses, certificates and contracts safe and easy to find, so you're never scrambling before an inspection.", benefits: ["All documents in one place", "Organized by category", "Find anything in seconds", "Ready for any audit"] },
+      { icon: ShieldCheck, title: "Audit Log", description: "Know exactly who did what and when in your clinic — protect yourself and your patients with a full record of every action.", benefits: ["Every action recorded", "Know exactly who did what", "Time-stamped for accuracy", "Search history anytime"] },
+      { icon: Workflow, title: "Automation", description: "Stop doing the same manual follow-ups every day — set it up once and let reminders and messages send themselves.", benefits: ["Set triggers once", "Reminders sent automatically", "Follow-up messages on autopilot", "Reach patients by SMS or email"] },
+      { icon: Globe, title: "Website Settings", description: "Give your clinic a professional online presence patients can trust, without hiring a web designer.", benefits: ["Your own branded clinic page", "List your services", "Introduce your team", "Show your contact info and location"] },
+      { icon: ShoppingBag, title: "Shop Management", description: "Turn your product sales into another revenue stream, with everything tracked automatically.", benefits: ["Build your product catalog", "Set your own prices", "Track every order", "Sell directly from your clinic page"] },
+      { icon: Settings, title: "Clinic Settings", description: "Set your clinic's name, logo, hours and preferences once, and have it reflected everywhere automatically.", benefits: ["Your branding, everywhere", "Contact details in one place", "Set your operating hours", "Preferences that stick"] },
     ],
   },
   {
     name: "Communication",
     modules: [
-      { icon: MessageSquare, title: "Messages", description: "Internal team messaging with file attachments and read receipts. Keep clinic communication organized and off WhatsApp.", benefits: ["Team messaging", "File attachments", "Read receipts", "Conversation history"] },
-      { icon: Bell, title: "Notifications", description: "Real-time alerts for appointments, lab results, payments, and system events. Never miss what matters.", benefits: ["Real-time alerts", "Unread badges", "Multi-category notifications", "Configurable preferences"] },
-      { icon: BookOpen, title: "Tutorials", description: "Built-in onboarding guides and help documentation. Get your team up to speed fast.", benefits: ["Step-by-step guides", "Role-specific tutorials", "Feature walkthroughs", "Always accessible"] },
-      { icon: Smartphone, title: "My Profile", description: "Personal profile management — update your info, notification preferences, and account settings.", benefits: ["Profile customization", "Notification preferences", "Password management", "Activity history"] },
+      { icon: MessageSquare, title: "Messages", description: "Get your team off scattered WhatsApp chats and keep every clinic conversation organized in one place.", benefits: ["Team chat built in", "Share files instantly", "Know when messages are read", "Full conversation history"] },
+      { icon: Bell, title: "Notifications", description: "Never miss a payment, a lab result, or an appointment change again — get alerted the moment it matters.", benefits: ["Instant alerts as things happen", "Never miss an unread update", "Alerts for every key event", "Choose what you get notified about"] },
+      { icon: BookOpen, title: "Tutorials", description: "Get new staff up and running fast, without you having to train them on the system yourself.", benefits: ["Simple step-by-step guides", "Guides matched to each role", "Walkthroughs for every feature", "Help available whenever it's needed"] },
+      { icon: Smartphone, title: "My Profile", description: "Every staff member controls their own details and notification settings, so you don't have to.", benefits: ["Update your own details", "Choose your notifications", "Manage your password", "See your own activity"] },
     ],
   },
   {
     name: "Public-Facing",
     modules: [
-      { icon: Globe, title: "Public Clinic Site", description: "Each clinic gets a branded landing page at their own URL. Showcase services, team, and let patients book online.", benefits: ["Branded clinic website", "Service showcase", "Online booking integration", "SEO-friendly pages"] },
-      { icon: ShoppingBag, title: "Public Shop", description: "E-commerce storefront for clinic products. Integrated with inventory.", benefits: ["Product storefront", "Inventory-linked stock", "Online ordering", "Payment integration"] },
-      { icon: ShoppingCart, title: "Product Pages", description: "Individual product detail pages with descriptions, images, pricing, and add-to-cart functionality.", benefits: ["Rich product details", "Image galleries", "Pricing display", "Shopping cart integration"] },
+      { icon: Globe, title: "Public Clinic Site", description: "Get found online and let patients book you directly, with a professional page that's ready in minutes.", benefits: ["Your own branded website", "Show off your services", "Patients book online directly", "Built to be found on Google"] },
+      { icon: ShoppingBag, title: "Public Shop", description: "Sell products online without extra work — your storefront and stock stay perfectly in sync.", benefits: ["Sell products online", "Stock updates automatically", "Patients order anytime", "Payments handled for you"] },
+      { icon: ShoppingCart, title: "Product Pages", description: "Give every product its own page with photos and pricing, so patients can buy with confidence.", benefits: ["Clear product details", "Photos that sell", "Prices shown upfront", "Add to cart with one tap"] },
     ],
   },
 ];
@@ -133,13 +133,13 @@ const Features = () => {
               44 Modules · 10 Categories
             </span>
             <h1 className="mb-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-white md:text-5xl">
-              Every Tool to{" "}
+              Everything You Need to{" "}
               <span className="bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] bg-clip-text text-transparent">
-                Run a Profitable Clinical Practice
+                Run a Clinic That Runs Itself
               </span>
             </h1>
             <p className="mx-auto max-w-xl text-lg leading-relaxed text-white/60">
-              You didn't go into healthcare to spend your nights on spreadsheets. Clinexus handles the admin so you can focus on what matters — your patients.
+              You didn't go into healthcare to spend your nights on spreadsheets. Clinexus handles the admin so you can go home on time and focus on your patients.
             </p>
           </motion.div>
         </div>
@@ -207,7 +207,7 @@ const Features = () => {
             <Lock className="mx-auto mb-4 h-10 w-10 text-[hsl(var(--medical-teal))]" />
             <h3 className="mb-3 text-xl font-bold text-white">9 Roles · Row-Level Security · Full Audit Trail</h3>
             <p className="text-white/60">
-              Owner, Admin, Dentist, Receptionist, Hygienist, Assistant, Accountant, Lab Technician, Lab Assistant — each role sees only what they need. Every action is logged. Every table is secured with row-level policies.
+              Owner, Admin, Dentist, Receptionist, Hygienist, Assistant, Accountant, Lab Technician, Lab Assistant — everyone sees only what they need. Every action is logged, so you always know who did what.
             </p>
           </motion.div>
         </div>

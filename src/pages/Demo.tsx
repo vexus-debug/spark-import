@@ -17,16 +17,16 @@ import profitability from "@/assets/demo/profitability.png";
 import aiAssistant from "@/assets/demo/ai-assistant.png";
 
 const screens = [
-  { src: aiAssistant, title: "AI Clinic Assistant", description: "Chat with your AI assistant to query live clinic data, manage appointments, check inventory alerts, and get clinical insights — all conversationally." },
-  { src: patients, title: "Patient Management", description: "View, search, and manage all patients with status tracking, phone details, and quick-access profiles. Supports list and grid views." },
-  { src: dentalCharts, title: "Interactive Dental Charts", description: "Full tooth-by-tooth charting with FDI notation. Track conditions like decay, crowns, implants, and more — color-coded for instant clarity." },
-  { src: treatments, title: "Treatments & Procedures", description: "Browse your treatment catalog by category with pricing. Create treatment plans and link them directly to invoices." },
-  { src: profitability, title: "Profitability Dashboard", description: "Revenue vs. expenses with profit margin KPIs. Visual monthly comparisons help you make data-driven decisions." },
-  { src: analytics, title: "Advanced Analytics", description: "Staff performance metrics, lab turnaround tracking, and chair utilization heatmaps — all in one place." },
-  { src: inventory, title: "Inventory Tracking", description: "Real-time stock levels by category with status badges. Track items from syringes to PPE with low-stock alerts." },
-  { src: staff, title: "Staff Management", description: "Manage your team with role-based badges, specializations, and contact details. Supports 9 built-in role types." },
-  { src: websiteSettings, title: "Website Builder", description: "Configure your clinic's public-facing website — branding, hero section, hours, social links, and booking settings." },
-  { src: clinicWebsite, title: "Public Clinic Website", description: "Each clinic gets a branded landing page with services, team info, online booking, and contact details." },
+  { src: aiAssistant, title: "AI Clinic Assistant", description: "Ask a question, get an answer — instantly. Check appointments, catch low stock, and get clinical insights without digging through menus." },
+  { src: patients, title: "Patient Management", description: "Find any patient in seconds. Every visit, phone number, and status update in one place — no more flipping through files." },
+  { src: dentalCharts, title: "Interactive Dental Charts", description: "See every tooth's history at a glance. Decay, crowns, implants — color-coded so you and your team never miss a detail." },
+  { src: treatments, title: "Treatments & Procedures", description: "Quote and bill faster. Pick from your treatment list, build a plan, and send it straight to an invoice." },
+  { src: profitability, title: "Profitability Dashboard", description: "Know exactly where your money is going. See revenue, expenses, and margins side by side, month over month." },
+  { src: analytics, title: "Advanced Analytics", description: "Spot what's working and what's not. Staff performance, lab turnaround, and chair usage, all in one view." },
+  { src: inventory, title: "Inventory Tracking", description: "Never run out at the worst moment. Real-time stock levels and low-stock alerts for everything from syringes to PPE." },
+  { src: staff, title: "Staff Management", description: "Keep your whole team organized. Roles, specializations, and contact details for everyone on staff, in one screen." },
+  { src: websiteSettings, title: "Website Builder", description: "Get found online without hiring a developer. Set your branding, hours, and booking settings yourself." },
+  { src: clinicWebsite, title: "Public Clinic Website", description: "Let patients book you online, day or night. Every clinic gets a branded page with services, team, and contact details." },
 ];
 
 const Demo = () => {
@@ -48,13 +48,13 @@ const Demo = () => {
               Dental Clinic Demo
             </span>
             <h1 className="mb-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-white md:text-5xl">
-              See the Dental Clinic Demo{" "}
+              See What a Calmer Clinic{" "}
               <span className="bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] bg-clip-text text-transparent">
-                in Action
+                Looks Like
               </span>
             </h1>
             <p className="mx-auto max-w-xl text-lg leading-relaxed text-white/60">
-              Every screen below is from the live Clinexus dental clinic demo — this is what running your dental practice looks like.
+              Every screen below is from a real, live dental clinic running on Clinexus. This is what your day could look like too.
             </p>
           </motion.div>
         </div>
@@ -149,7 +149,7 @@ const Demo = () => {
             viewport={{ once: true }}
             className="mb-10 text-center"
           >
-            <h2 className="mb-3 text-2xl font-bold text-foreground md:text-3xl">All Dental Clinic Demo Screens</h2>
+            <h2 className="mb-3 text-2xl font-bold text-foreground md:text-3xl">Every Screen, One Clinic Day</h2>
             <p className="text-muted-foreground">Click any screen above to explore in detail</p>
           </motion.div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
@@ -180,9 +180,9 @@ const Demo = () => {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[hsl(var(--primary))]/10 via-transparent to-[hsl(var(--medical-teal))]/10" />
         <div className="container relative z-10 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <h2 className="mb-4 text-3xl font-bold text-foreground">Ready to Experience This?</h2>
+            <h2 className="mb-4 text-3xl font-bold text-foreground">Ready for Your Clinic to Run Like This?</h2>
             <p className="mx-auto mb-8 max-w-xl text-muted-foreground">
-              Start your first month for just ₦10,000 and get access to every feature you just saw.
+              Start your first month for just ₦10,000 and get access to every screen you just saw.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a href="https://app.clinexus.com.ng/">
