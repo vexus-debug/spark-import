@@ -43,10 +43,10 @@ const TestimonialsSection = () => {
             Real Results
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Clinics That Got Their Time Back
+            Clinic Owners Who Got Their Lives Back
           </h2>
           <p className="text-muted-foreground">
-            These aren't feature reviews. These are clinic owners whose businesses actually changed.
+            Not feature reviews — real clinic owners whose businesses, and evenings, actually changed.
           </p>
         </motion.div>
 

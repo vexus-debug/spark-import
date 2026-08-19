@@ -64,7 +64,7 @@ const HeroSection = () => {
             <TypingText />
           </h1>
           <p className="mx-auto mb-10 max-w-xl text-lg leading-relaxed text-white/60">
-            Stop losing money to missed appointments, manual billing errors, and hours spent on admin. Clinexus runs your entire clinic so you can focus on your patients — and actually go home on time.
+            Stop chasing payments, fixing billing mistakes, and drowning in paperwork. Clinexus runs the business side of your clinic so you can focus on patients — and actually go home on time.
           </p>
           <a href="https://app.clinexus.com.ng/">
             <Button

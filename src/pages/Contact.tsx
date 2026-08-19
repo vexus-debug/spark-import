@@ -44,13 +44,13 @@ const Contact = () => {
               Contact Us
             </span>
             <h1 className="mb-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-white md:text-5xl">
-              Let's Talk About{" "}
+              Tell Us What's Slowing{" "}
               <span className="bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] bg-clip-text text-transparent">
-                Your Practice
+                Your Clinic Down
               </span>
             </h1>
             <p className="mx-auto max-w-xl text-lg leading-relaxed text-white/60">
-              Whether you want a demo, have questions, or need a custom solution — our team is ready to help you modernize your clinic operations.
+              Want a demo, have questions, or need something specific? Our team is ready to help you get your time and money back.
             </p>
           </motion.div>
         </div>
@@ -85,7 +85,7 @@ const Contact = () => {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="message">Message *</Label>
-                <Textarea id="message" value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} placeholder="Tell us what challenges you're facing, or request a personalized demo..." rows={5} />
+                <Textarea id="message" value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} placeholder="Tell us what's slowing your clinic down, or request a personalized demo..." rows={5} />
               </div>
               <Button type="submit" className="w-full gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] text-white shadow-md hover:opacity-90">
                 Send Message <ArrowRight className="h-4 w-4" />
@@ -125,16 +125,16 @@ const Contact = () => {
                 <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/15 to-primary/5">
                   <MessageSquare className="h-5 w-5 text-primary" />
                 </div>
-                <h4 className="mb-2 font-semibold text-foreground">Request a Live Demo</h4>
+                <h4 className="mb-2 font-semibold text-foreground">See It Running Before You Commit</h4>
                 <p className="text-sm leading-relaxed text-muted-foreground">
-                  Want to see Clinexus in action for your specific specialty? Mention "demo" in your message and we'll schedule a personalized 30-minute walkthrough — no strings attached.
+                  Want to see Clinexus set up for your specific specialty? Mention "demo" in your message and we'll book a personalized 30-minute walkthrough — no strings attached.
                 </p>
               </div>
 
               <div className="rounded-2xl border border-border/50 bg-gradient-to-br from-muted/30 to-card/80 p-6">
                 <h4 className="mb-2 font-semibold text-foreground">Already a Customer?</h4>
                 <p className="text-sm leading-relaxed text-muted-foreground">
-                  For support inquiries, log into your dashboard and use the in-app support chat for the fastest response. Average response time: under 2 hours.
+                  Need help fast? Log into your dashboard and use the in-app support chat. Average response time: under 2 hours.
                 </p>
               </div>
             </motion.div>

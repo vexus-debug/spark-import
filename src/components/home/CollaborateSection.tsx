@@ -88,17 +88,17 @@ const CollaborateSection = () => {
               <Lock className="h-6 w-6 text-[hsl(var(--medical-teal))]" />
             </div>
             <h2 className="mb-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
-              Your Entire Team, One Secure Platform
+              A Team You Can Trust, Without Watching Their Every Move
             </h2>
             <p className="mb-6 text-lg leading-relaxed text-white/60">
-              Dentists chart teeth. Receptionists manage bookings. Lab techs handle cases. Accountants track finances. Each role sees only what they need — enforced at every level.
+              Dentists chart teeth. Receptionists manage bookings. Lab techs handle cases. Accountants track the money. Everyone sees only what they need — nothing more, nothing they shouldn't.
             </p>
             <ul className="space-y-3">
               {[
-                "9 built-in roles: Owner, Admin, Dentist, Hygienist, and more",
-                "Row-level security on every table",
-                "Complete audit trail for compliance",
-                "Internal messaging with read receipts",
+                "9 ready-made roles: Owner, Admin, Dentist, Hygienist, and more",
+                "Your data locked down, record by record",
+                "Every action logged, so nothing goes unaccounted for",
+                "Talk to your team without a single WhatsApp group",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3 text-white">
                   <CheckCircle2 className="h-5 w-5 shrink-0 text-[hsl(var(--medical-teal))]" />

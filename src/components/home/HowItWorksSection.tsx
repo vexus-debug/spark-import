@@ -5,17 +5,17 @@ const steps = [
   {
     icon: UserPlus,
     title: "You're Live in Minutes",
-    description: "Sign up and your clinic is ready to go. No IT team, no long onboarding calls, no credit card. Just your clinic — up and running.",
+    description: "Sign up and your clinic is ready to go. No IT team, no long onboarding calls, no credit card required. Just your clinic, live and working.",
   },
   {
     icon: Settings,
     title: "It Fits the Way You Work",
-    description: "Add your treatments, your staff, your schedules. Clinexus adapts to your clinic — not the other way around.",
+    description: "Add your treatments, your staff, your schedules. Clinexus bends to fit your clinic — you don't bend to fit it.",
   },
   {
     icon: Rocket,
     title: "Watch Your Clinic Transform",
-    description: "From the first appointment booked to the first invoice paid automatically — you'll wonder how you managed without it.",
+    description: "From the first appointment booked to the first invoice paid without a phone call — you'll wonder how you managed without it.",
   },
 ];
 
@@ -39,7 +39,7 @@ const HowItWorksSection = () => {
             From Chaos to Clarity in Three Steps
           </h2>
           <p className="text-muted-foreground">
-            Most clinics are fully operational within a day. No steep learning curve. No consultants needed.
+            Most clinics are up and running the same day. No steep learning curve. No consultants needed.
           </p>
         </motion.div>
 

@@ -51,7 +51,7 @@ const FAQSection = () => {
             FAQ
           </span>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
-            Questions Clinic Owners Actually Ask
+            The Questions Every Clinic Owner Asks Us
           </h2>
           <p className="text-white/60">
             Honest answers — no marketing fluff.
