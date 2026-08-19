@@ -7,7 +7,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import Features from "./pages/Features";
 import Industries from "./pages/Industries";
-import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
@@ -19,7 +18,7 @@ import Demo from "./pages/Demo";
 const queryClient = new QueryClient();
 
 // Static routes to avoid conflict with /:clinicSlug
-const STATIC_ROUTES = ["features", "industries", "pricing", "about", "contact", "privacy", "terms", "demo"];
+const STATIC_ROUTES = ["features", "industries", "about", "contact", "privacy", "terms", "demo"];
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -32,7 +31,6 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/features" element={<Features />} />
           <Route path="/industries" element={<Industries />} />
-          <Route path="/pricing" element={<Pricing />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
