@@ -67,14 +67,14 @@ const HeroSection = () => {
           <p className="mx-auto mb-10 max-w-xl text-lg leading-relaxed text-white/60">
             Stop losing money to missed appointments, manual billing errors, and hours spent on admin. Clinexus runs your entire clinic so you can focus on your patients — and actually go home on time.
           </p>
-          <Link to="/pricing">
+          <a href="https://app.clinexus.com.ng/">
             <Button
               size="lg"
               className="gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] px-10 text-white shadow-lg shadow-[hsl(var(--primary))]/30 hover:opacity-90"
             >
               Start Your First Month — ₦10,000 <ArrowRight className="h-4 w-4" />
             </Button>
-          </Link>
+          </a>
           <p className="mt-3 text-xs text-white/30">First month: full access. From Month 2, choose your plan.</p>
         </motion.div>
 
