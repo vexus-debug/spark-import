@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import IndustryIllustration from "@/components/IndustryIllustration";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -154,6 +155,12 @@ const industries = [
   },
 ];
 
+const artFor = (title: string) => {
+  const map: Record<string, string> = {"Dental": "dental", "Eye Care": "eye", "General Practice": "stethoscope", "Pediatric": "baby", "Orthopedic": "bone", "Dermatology": "derma", "Cardiology": "heart", "ENT": "ear", "Neurology": "brain", "Diagnostic": "lab", "Wellness": "wellness"};
+  const key = Object.keys(map).find((k) => title.startsWith(k));
+  return key ? map[key] : "stethoscope";
+};
+
 const Industries = () => {
   return (
     <Layout>
@@ -225,8 +232,9 @@ const Industries = () => {
                 </a>
               </div>
               <div className="flex-1">
-                <div className="rounded-2xl border border-border/50 bg-gradient-to-br from-card/80 to-muted/50 p-16 text-center shadow-lg">
-                  <ind.icon className="mx-auto h-24 w-24 text-primary/15" />
+                <div className="relative overflow-hidden rounded-3xl border border-border/50 bg-gradient-to-br from-card/90 to-muted/40 p-8 shadow-lg">
+                  <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-primary/10 blur-2xl" />
+                  <IndustryIllustration variant={artFor(ind.title)} className="relative mx-auto h-64 w-full max-w-sm" />
                 </div>
               </div>
             </motion.div>
