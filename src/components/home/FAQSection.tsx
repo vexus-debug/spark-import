@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "What does the first month actually get me?",
-    a: "Full access to everything in Clinexus — every module, every feature, across every plan. For ₦10,000 you run your entire clinic at full capacity. From Month 2, you choose the plan that fits your size and needs.",
+    a: "Full access to everything in Clinexus — every module, every feature, across every plan. You run your entire clinic at full capacity for your first month. From Month 2, you choose the plan that fits your size and needs.",
   },
   {
     q: "Can my patients book appointments themselves?",
