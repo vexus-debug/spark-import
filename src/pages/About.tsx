@@ -220,7 +220,7 @@ const About = () => {
             <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-widest text-primary">Get Started</span>
             <h2 className="mb-4 text-3xl font-extrabold text-foreground">Ready for Fewer Headaches and More Revenue?</h2>
             <p className="mb-8 text-muted-foreground">
-              Join 500+ clinics already saving time, cutting errors, and growing revenue with Clinexus. Your first month is just <strong className="text-foreground">₦10,000</strong> — full access, all features.
+              Join 500+ clinics already saving time, cutting errors, and growing revenue with Clinexus. Your first month gives you full access to all features.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a href={APP_URL}>

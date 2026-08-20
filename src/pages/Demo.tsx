@@ -182,7 +182,7 @@ const Demo = () => {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <h2 className="mb-4 text-3xl font-bold text-foreground">Ready for Your Clinic to Run Like This?</h2>
             <p className="mx-auto mb-8 max-w-xl text-muted-foreground">
-              Start your first month for just ₦10,000 and get access to every screen you just saw.
+              Start your first month and get access to every screen you just saw.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a href="https://app.clinexus.com.ng/">
